@@ -1,0 +1,10 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #ff0202;
+}
+
+h1 {
+    color: #5b0d0d; /* verde neon! */
+    font-size: 40px; /* tamanho */
+    font-family: Georgia, serif;
+}
