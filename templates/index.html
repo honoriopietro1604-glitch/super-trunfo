@@ -1,17 +1,23 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Super Trunfo: MEMES</title>
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <p>memes. Qual carta ganhará o duelo?</p>
+    <head>
+        <title>Super Trunfo: MEMES</title>
+        <link rel="stylesheet" href="../static/css/style.css">
+    </head>
+    <body>
+        <h1>Super Trunfo: MEMES</h1>
+        <p>
+            <a class="botao" href="/pacotinho">Abrir pacotinho</a>
+            <a href="/regras">Ver as regras do jogo</a>
+            <a href="{{url_for('criar')}}">Criar carta</a>
+        </p>
+        <p class="subtitulo">memes. Qual carta ganhará o duelo?</p>
 
     <div style="display: flex; gap: 30px;">
         <!-- A carta vai aqui -->
         <div class="carta rara">
-            <h2>Para nossa alegria</h2>
-            <img src="images/para nossa alegria.png"
+            <h2></h2>
+            <img src="../static/images/para nossa alegria.png"
                 alt="Imagem retirada de https://www.myinstants.com/pt/instant/para-nossa-alegria/"
                 width="250">
             <p class="raridade">Raridade: rara</p>
@@ -20,11 +26,12 @@
                 <li>Zoeira: 70</li>
                 <li>Nostalgia: 90</li>
             </ul>
+            <a class="botao" href="/duelo/carta_1">Duelar</a>
         </div>
 
         <div class="carta comum">
-            <h2>Para nossa alegria</h2>
-            <img src="images/para nossa alegria 1.png"
+            <h2>esmiliguido</h2>
+            <img src="../static/images/esmiliguido.png"
                 alt="Imagem retirada de https://www.pngmart.com/files/4/LOL-PNG-Image.png"
                 width="250">
             <p class="raridade">Raridade: comum</p>
@@ -33,6 +40,7 @@
                 <li>Zoeira: 60</li>
                 <li>Nostalgia: 60</li>
             </ul>
+            <a class="botao" href="/duelo/carta_2">Duelar</a>
         </div>
     </div>
 </body>
